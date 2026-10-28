@@ -2,7 +2,7 @@
 
 **Is your syllabus job-ready?** SkillsGap compares a university course syllabus with the skills that job ads mention, and gives lecturers a subject-level checklist of *potential* skill gaps, with the evidence behind every result.
 
-Team **ArgonUT** · HackSpire Lumina, UNITEN · Prototype
+Team **ArgonUT** · HackSpire Lumina, UNITEN · Prototype ·
 
 ![Start screen](docs/screenshots/start.png)
 
