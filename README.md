@@ -148,8 +148,3 @@ PROJECT_LOG.md   decisions, milestones, known issues
 - **Data:** "LinkedIn Job Postings (2023 - 2024)" by Arsh Koneru (Kaggle, CC BY-SA 4.0). Filtering, role mapping, dictionary and counts by the ArgonUT data team.
 - **Draggable tile grid:** `web/js/grid.js` is a plain-JavaScript port of the team's "Draggable Widget Grid" reference component (React + Motion).
 - **Libraries:** FastAPI, Uvicorn, pandas, pdfplumber, python-docx, pytest.
-
-## Licence
-
-- **Data** (`data/`): CC BY-SA 4.0, as required by the source dataset.
-- **Code:** not yet chosen.
