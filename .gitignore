@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Secrets - never commit
+.env
+
+# Kiro (coding assistant) settings - not part of the app
+.kiro/
+
+# Never commit real syllabi or large raw datasets
+real_syllabi/
+data/raw/
+# Raw Kaggle LinkedIn dataset used by data/prepare_data.py (large, not ours to redistribute)
+postings.csv
+*.pdf
+*.docx

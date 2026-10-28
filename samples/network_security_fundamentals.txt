@@ -1,0 +1,42 @@
+FICTIONAL SAMPLE SYLLABUS
+Written by Team ArgonUT for the SkillsGap demo. This is not a real UNITEN course.
+
+Course: SAMPLE-NS201 Network Security Fundamentals
+Credit hours: 3
+Level: Year 3, undergraduate
+
+Synopsis
+This course covers the principles and practice of securing computer networks. Students learn how common attacks work and how to defend against them using firewalls, encryption and secure network design. Practical labs use virtual machines running Linux.
+
+Learning outcomes
+By the end of the course, students should be able to:
+1. Explain the TCP/IP model and how common network protocols can be attacked.
+2. Configure firewall rules and a site-to-site VPN in a lab network.
+3. Apply encryption and public key infrastructure to protect data in transit.
+4. Capture and analyse network traffic with Wireshark to spot suspicious activity.
+5. Carry out a basic risk assessment for a small organisation's network.
+
+Weekly topics
+Week 1: Introduction to network security and the CIA triad.
+Week 2: Review of TCP/IP, ports and services.
+Week 3: Common attacks: scanning, spoofing, denial of service and malware.
+Week 4: Firewalls: packet filtering and stateful inspection.
+Week 5: Firewall lab on Linux.
+Week 6: Cryptography basics: symmetric and asymmetric encryption.
+Week 7: Public key infrastructure, certificates and TLS.
+Week 8: VPN technologies.
+Week 9: Intrusion detection and network monitoring.
+Week 10: Packet analysis with Wireshark.
+Week 11: Wireless network security.
+Week 12: Security policies and risk assessment.
+Week 13: Legal and ethical issues in security.
+Week 14: Revision and project presentations.
+
+Assessment
+Lab reports: 25%
+Mid-term test: 15%
+Group project (secure network design): 30%
+Final examination: 30%
+
+Main references
+Introductory textbooks on network security, chosen by the lecturer.

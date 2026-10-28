@@ -1,0 +1,351 @@
+role,skill,demand,postings_count,total_postings
+Data Analyst,SQL,0.625,232,371
+Data Analyst,Data Analysis,0.604,224,371
+Data Analyst,Communication,0.493,183,371
+Data Analyst,Data Visualisation,0.429,159,371
+Data Analyst,Excel,0.394,146,371
+Data Analyst,Python,0.313,116,371
+Data Analyst,Statistics,0.286,106,371
+Data Analyst,Problem Solving,0.272,101,371
+Data Analyst,Tableau,0.270,100,371
+Data Analyst,Power BI,0.267,99,371
+Data Analyst,Attention to Detail,0.221,82,371
+Data Analyst,Presentation Skills,0.191,71,371
+Data Analyst,ETL,0.151,56,371
+Data Analyst,R,0.148,55,371
+Data Analyst,Data Warehousing,0.143,53,371
+Data Analyst,KPIs,0.113,42,371
+Data Analyst,Machine Learning,0.111,41,371
+Data Analyst,SAS,0.078,29,371
+Data Analyst,Snowflake,0.078,29,371
+Data Analyst,Data Modeling,0.070,26,371
+Data Analyst,Predictive Modeling,0.067,25,371
+Data Analyst,Data Cleaning,0.057,21,371
+Data Analyst,Looker,0.049,18,371
+Data Analyst,Apache Spark,0.040,15,371
+Data Analyst,A/B Testing,0.030,11,371
+Data Analyst,Qlik,0.030,11,371
+Data Analyst,SPSS,0.022,8,371
+Data Analyst,Google Analytics,0.013,5,371
+Data Analyst,Regression Analysis,0.013,5,371
+Cybersecurity Analyst,Communication,0.509,205,403
+Cybersecurity Analyst,Incident Response,0.320,129,403
+Cybersecurity Analyst,SIEM,0.305,123,403
+Cybersecurity Analyst,Vulnerability Management,0.283,114,403
+Cybersecurity Analyst,Problem Solving,0.278,112,403
+Cybersecurity Analyst,Risk Management,0.270,109,403
+Cybersecurity Analyst,Firewalls,0.263,106,403
+Cybersecurity Analyst,CISSP,0.256,103,403
+Cybersecurity Analyst,Python,0.248,100,403
+Cybersecurity Analyst,IDS/IPS,0.221,89,403
+Cybersecurity Analyst,Linux,0.208,84,403
+Cybersecurity Analyst,Network Security,0.208,84,403
+Cybersecurity Analyst,Encryption,0.191,77,403
+Cybersecurity Analyst,NIST,0.176,71,403
+Cybersecurity Analyst,Identity and Access Management,0.171,69,403
+Cybersecurity Analyst,Endpoint Security,0.156,63,403
+Cybersecurity Analyst,Cloud Security,0.151,61,403
+Cybersecurity Analyst,Penetration Testing,0.132,53,403
+Cybersecurity Analyst,Security Compliance,0.132,53,403
+Cybersecurity Analyst,Security+,0.129,52,403
+Cybersecurity Analyst,CISM,0.119,48,403
+Cybersecurity Analyst,Threat Intelligence,0.119,48,403
+Cybersecurity Analyst,PowerShell,0.117,47,403
+Cybersecurity Analyst,TCP/IP,0.107,43,403
+Cybersecurity Analyst,CEH,0.104,42,403
+Cybersecurity Analyst,Active Directory,0.097,39,403
+Cybersecurity Analyst,Malware Analysis,0.084,34,403
+Cybersecurity Analyst,ISO 27001,0.069,28,403
+Cybersecurity Analyst,Digital Forensics,0.050,20,403
+Cybersecurity Analyst,Wireshark,0.027,11,403
+Software Engineer,Communication,0.416,1017,2442
+Software Engineer,Java,0.397,969,2442
+Software Engineer,Agile,0.369,902,2442
+Software Engineer,JavaScript,0.355,866,2442
+Software Engineer,SQL,0.306,748,2442
+Software Engineer,Python,0.295,721,2442
+Software Engineer,Problem Solving,0.277,677,2442
+Software Engineer,AWS,0.275,672,2442
+Software Engineer,Git,0.269,657,2442
+Software Engineer,React,0.231,565,2442
+Software Engineer,CI/CD,0.225,549,2442
+Software Engineer,REST APIs,0.179,438,2442
+Software Engineer,HTML,0.178,434,2442
+Software Engineer,Unit Testing,0.174,426,2442
+Software Engineer,C#,0.172,419,2442
+Software Engineer,.NET,0.167,407,2442
+Software Engineer,CSS,0.166,406,2442
+Software Engineer,Kubernetes,0.156,380,2442
+Software Engineer,Microservices,0.151,368,2442
+Software Engineer,C++,0.148,362,2442
+Software Engineer,Docker,0.142,347,2442
+Software Engineer,NoSQL,0.142,347,2442
+Software Engineer,TypeScript,0.134,328,2442
+Software Engineer,Data Structures & Algorithms,0.126,307,2442
+Software Engineer,System Design,0.122,297,2442
+Software Engineer,Linux,0.118,289,2442
+Software Engineer,Node.js,0.114,279,2442
+Software Engineer,Object-Oriented Programming,0.096,235,2442
+Software Engineer,C,0.085,207,2442
+Software Engineer,Go,0.077,187,2442
+Data Scientist,Python,0.810,336,415
+Data Scientist,Machine Learning,0.749,311,415
+Data Scientist,Statistics,0.600,249,415
+Data Scientist,Communication,0.472,196,415
+Data Scientist,SQL,0.458,190,415
+Data Scientist,R,0.383,159,415
+Data Scientist,Problem Solving,0.270,112,415
+Data Scientist,Data Visualisation,0.253,105,415
+Data Scientist,Deep Learning,0.253,105,415
+Data Scientist,NLP,0.239,99,415
+Data Scientist,Generative AI,0.207,86,415
+Data Scientist,AWS,0.205,85,415
+Data Scientist,Predictive Modeling,0.205,85,415
+Data Scientist,PyTorch,0.198,82,415
+Data Scientist,Apache Spark,0.195,81,415
+Data Scientist,TensorFlow,0.186,77,415
+Data Scientist,Tableau,0.133,55,415
+Data Scientist,Time Series Analysis,0.113,47,415
+Data Scientist,MLOps,0.108,45,415
+Data Scientist,Git,0.094,39,415
+Data Scientist,Scikit-learn,0.094,39,415
+Data Scientist,Computer Vision,0.089,37,415
+Data Scientist,Docker,0.082,34,415
+Data Scientist,Pandas,0.077,32,415
+Data Scientist,NumPy,0.063,26,415
+Data Scientist,Databricks,0.051,21,415
+Data Scientist,Regression Analysis,0.048,20,415
+Data Scientist,Jupyter,0.041,17,415
+Data Scientist,A/B Testing,0.034,14,415
+Network Engineer,Routing and Switching,0.708,218,308
+Network Engineer,Cisco,0.662,204,308
+Network Engineer,Firewalls,0.584,180,308
+Network Engineer,Troubleshooting,0.555,171,308
+Network Engineer,Communication,0.464,143,308
+Network Engineer,LAN/WAN,0.360,111,308
+Network Engineer,VPN,0.305,94,308
+Network Engineer,CCNP,0.292,90,308
+Network Engineer,Network Security,0.286,88,308
+Network Engineer,CCNA,0.269,83,308
+Network Engineer,BGP,0.256,79,308
+Network Engineer,Network Monitoring,0.244,75,308
+Network Engineer,OSPF,0.231,71,308
+Network Engineer,TCP/IP,0.211,65,308
+Network Engineer,Wireless Networking,0.208,64,308
+Network Engineer,DNS,0.192,59,308
+Network Engineer,Load Balancing,0.192,59,308
+Network Engineer,Python,0.185,57,308
+Network Engineer,Juniper,0.159,49,308
+Network Engineer,SD-WAN,0.149,46,308
+Network Engineer,VLAN,0.146,45,308
+Network Engineer,Linux,0.127,39,308
+Network Engineer,Cloud Networking,0.114,35,308
+Network Engineer,MPLS,0.110,34,308
+Network Engineer,QoS,0.110,34,308
+Network Engineer,DHCP,0.097,30,308
+Network Engineer,Ansible,0.094,29,308
+Network Engineer,Wireshark,0.088,27,308
+Network Engineer,Network Automation,0.075,23,308
+Cloud Engineer,AWS,0.525,208,396
+Cloud Engineer,Azure,0.495,196,396
+Cloud Engineer,CI/CD,0.452,179,396
+Cloud Engineer,Communication,0.429,170,396
+Cloud Engineer,Kubernetes,0.404,160,396
+Cloud Engineer,Terraform,0.396,157,396
+Cloud Engineer,Python,0.379,150,396
+Cloud Engineer,Infrastructure as Code,0.366,145,396
+Cloud Engineer,Git,0.359,142,396
+Cloud Engineer,Docker,0.311,123,396
+Cloud Engineer,Problem Solving,0.293,116,396
+Cloud Engineer,Linux,0.265,105,396
+Cloud Engineer,Agile,0.237,94,396
+Cloud Engineer,GCP,0.222,88,396
+Cloud Engineer,PowerShell,0.222,88,396
+Cloud Engineer,Bash,0.205,81,396
+Cloud Engineer,Jenkins,0.199,79,396
+Cloud Engineer,Ansible,0.179,71,396
+Cloud Engineer,Identity and Access Management,0.177,70,396
+Cloud Engineer,Monitoring Tools,0.154,61,396
+Cloud Engineer,Microservices,0.091,36,396
+Cloud Engineer,Cloud Networking,0.088,35,396
+Cloud Engineer,Serverless,0.086,34,396
+Cloud Engineer,Cloud Certifications,0.081,32,396
+Cloud Engineer,Go,0.081,32,396
+Cloud Engineer,Cloud Security,0.068,27,396
+Cloud Engineer,DNS,0.056,22,396
+Cloud Engineer,Load Balancing,0.051,20,396
+Cloud Engineer,REST APIs,0.035,14,396
+Cloud Engineer,Cloud Cost Optimization,0.030,12,396
+Electrical Engineer,Communication,0.523,212,405
+Electrical Engineer,AutoCAD,0.277,112,405
+Electrical Engineer,Power Distribution,0.240,97,405
+Electrical Engineer,Problem Solving,0.195,79,405
+Electrical Engineer,Microsoft Office,0.193,78,405
+Electrical Engineer,PE License,0.190,77,405
+Electrical Engineer,NEC,0.185,75,405
+Electrical Engineer,CAD,0.180,73,405
+Electrical Engineer,Power Systems Analysis,0.180,73,405
+Electrical Engineer,Revit,0.153,62,405
+Electrical Engineer,Control Systems,0.141,57,405
+Electrical Engineer,Commissioning,0.133,54,405
+Electrical Engineer,PLC,0.126,51,405
+Electrical Engineer,Circuit Design,0.121,49,405
+Electrical Engineer,Embedded Systems,0.099,40,405
+Electrical Engineer,Instrumentation,0.099,40,405
+Electrical Engineer,Motor Controls,0.099,40,405
+Electrical Engineer,Substation Design,0.099,40,405
+Electrical Engineer,PCB Design,0.091,37,405
+Electrical Engineer,MEP,0.072,29,405
+Electrical Engineer,EIT/FE,0.062,25,405
+Electrical Engineer,Engineering Drawings,0.057,23,405
+Electrical Engineer,C,0.049,20,405
+Electrical Engineer,SCADA,0.044,18,405
+Electrical Engineer,Lighting Design,0.037,15,405
+Electrical Engineer,Python,0.037,15,405
+Electrical Engineer,MATLAB,0.030,12,405
+Electrical Engineer,Simulink,0.012,5,405
+Mechanical Engineer,Communication,0.471,152,323
+Mechanical Engineer,CAD,0.381,123,323
+Mechanical Engineer,SolidWorks,0.337,109,323
+Mechanical Engineer,Manufacturing Processes,0.245,79,323
+Mechanical Engineer,Problem Solving,0.232,75,323
+Mechanical Engineer,Prototyping,0.220,71,323
+Mechanical Engineer,AutoCAD,0.211,68,323
+Mechanical Engineer,Microsoft Office,0.186,60,323
+Mechanical Engineer,HVAC,0.164,53,323
+Mechanical Engineer,FEA,0.142,46,323
+Mechanical Engineer,GD&T,0.133,43,323
+Mechanical Engineer,Engineering Drawings,0.124,40,323
+Mechanical Engineer,PE License,0.121,39,323
+Mechanical Engineer,Creo,0.105,34,323
+Mechanical Engineer,Commissioning,0.090,29,323
+Mechanical Engineer,DFM,0.080,26,323
+Mechanical Engineer,ANSYS,0.065,21,323
+Mechanical Engineer,Thermal Analysis,0.062,20,323
+Mechanical Engineer,MEP,0.059,19,323
+Mechanical Engineer,FMEA,0.050,16,323
+Mechanical Engineer,Lean Six Sigma,0.050,16,323
+Mechanical Engineer,Materials Selection,0.040,13,323
+Mechanical Engineer,CFD,0.034,11,323
+Mechanical Engineer,Root Cause Analysis,0.031,10,323
+Mechanical Engineer,Siemens NX,0.028,9,323
+Mechanical Engineer,CATIA,0.025,8,323
+Mechanical Engineer,Tolerance Analysis,0.025,8,323
+Mechanical Engineer,MATLAB,0.022,7,323
+Mechanical Engineer,Python,0.012,4,323
+Civil Engineer,Communication,0.608,188,309
+Civil Engineer,AutoCAD,0.434,134,309
+Civil Engineer,PE License,0.401,124,309
+Civil Engineer,Stormwater Management,0.285,88,309
+Civil Engineer,Site Design & Grading,0.265,82,309
+Civil Engineer,Civil 3D,0.262,81,309
+Civil Engineer,Construction Administration,0.227,70,309
+Civil Engineer,Structural Design,0.217,67,309
+Civil Engineer,Microsoft Office,0.194,60,309
+Civil Engineer,Permitting,0.188,58,309
+Civil Engineer,Problem Solving,0.188,58,309
+Civil Engineer,Cost Estimation,0.168,52,309
+Civil Engineer,EIT/FE,0.168,52,309
+Civil Engineer,MicroStation,0.165,51,309
+Civil Engineer,Water Resources,0.162,50,309
+Civil Engineer,Attention to Detail,0.142,44,309
+Civil Engineer,Geotechnical Engineering,0.129,40,309
+Civil Engineer,Revit,0.129,40,309
+Civil Engineer,Building Codes,0.126,39,309
+Civil Engineer,Transportation Engineering,0.120,37,309
+Civil Engineer,Scheduling,0.107,33,309
+Civil Engineer,Structural Analysis Software,0.100,31,309
+Civil Engineer,GIS,0.081,25,309
+Civil Engineer,Hydraulic Modeling,0.071,22,309
+Civil Engineer,Bluebeam,0.052,16,309
+Civil Engineer,Surveying,0.042,13,309
+Civil Engineer,BIM,0.029,9,309
+Civil Engineer,Engineering Drawings,0.023,7,309
+UI/UX Designer,Teamwork,0.704,159,226
+UI/UX Designer,Prototyping,0.619,140,226
+UI/UX Designer,Communication,0.553,125,226
+UI/UX Designer,Figma,0.535,121,226
+UI/UX Designer,User Research,0.451,102,226
+UI/UX Designer,Wireframing,0.442,100,226
+UI/UX Designer,Usability Testing,0.381,86,226
+UI/UX Designer,Visual Design,0.319,72,226
+UI/UX Designer,Agile,0.310,70,226
+UI/UX Designer,Design Systems,0.274,62,226
+UI/UX Designer,Sketch,0.265,60,226
+UI/UX Designer,User-Centered Design,0.257,58,226
+UI/UX Designer,Interaction Design,0.217,49,226
+UI/UX Designer,Adobe Creative Suite,0.199,45,226
+UI/UX Designer,User Journey Mapping,0.190,43,226
+UI/UX Designer,Accessibility,0.173,39,226
+UI/UX Designer,Presentation Skills,0.173,39,226
+UI/UX Designer,CSS,0.150,34,226
+UI/UX Designer,HTML,0.150,34,226
+UI/UX Designer,JavaScript,0.124,28,226
+UI/UX Designer,InVision,0.115,26,226
+UI/UX Designer,Adobe XD,0.111,25,226
+UI/UX Designer,Responsive Design,0.111,25,226
+UI/UX Designer,Information Architecture,0.102,23,226
+UI/UX Designer,Personas,0.088,20,226
+UI/UX Designer,Design Thinking,0.071,16,226
+UI/UX Designer,Axure,0.031,7,226
+UI/UX Designer,A/B Testing,0.027,6,226
+UI/UX Designer,Miro,0.027,6,226
+Business Analyst,Communication,0.582,352,605
+Business Analyst,Requirements Gathering,0.440,266,605
+Business Analyst,Documentation,0.379,229,605
+Business Analyst,Agile,0.340,206,605
+Business Analyst,Problem Solving,0.311,188,605
+Business Analyst,SQL,0.248,150,605
+Business Analyst,Excel,0.240,145,605
+Business Analyst,Data Analysis,0.226,137,605
+Business Analyst,User Stories,0.188,114,605
+Business Analyst,Presentation Skills,0.185,112,605
+Business Analyst,Jira,0.162,98,605
+Business Analyst,Process Improvement,0.157,95,605
+Business Analyst,Process Mapping,0.127,77,605
+Business Analyst,UAT,0.126,76,605
+Business Analyst,Scrum,0.124,75,605
+Business Analyst,ERP,0.119,72,605
+Business Analyst,Visio,0.114,69,605
+Business Analyst,Power BI,0.093,56,605
+Business Analyst,Change Management,0.089,54,605
+Business Analyst,Backlog Management,0.083,50,605
+Business Analyst,Confluence,0.079,48,605
+Business Analyst,Tableau,0.076,46,605
+Business Analyst,Salesforce,0.066,40,605
+Business Analyst,Cost-Benefit Analysis,0.051,31,605
+Business Analyst,SharePoint,0.050,30,605
+Business Analyst,KPIs,0.041,25,605
+Business Analyst,CRM,0.040,24,605
+Business Analyst,Stakeholder Management,0.033,20,605
+Business Analyst,Gap Analysis,0.023,14,605
+Project Manager,Communication,0.674,1239,1839
+Project Manager,Leadership,0.409,752,1839
+Project Manager,Scheduling,0.266,490,1839
+Project Manager,PMP,0.231,424,1839
+Project Manager,Microsoft Office,0.222,408,1839
+Project Manager,Construction Administration,0.171,315,1839
+Project Manager,Agile,0.162,297,1839
+Project Manager,Quality Management,0.158,290,1839
+Project Manager,Risk Management,0.155,285,1839
+Project Manager,Time Management,0.143,263,1839
+Project Manager,Negotiation,0.137,252,1839
+Project Manager,Scope Management,0.131,240,1839
+Project Manager,MS Project,0.128,236,1839
+Project Manager,Budget Management,0.120,221,1839
+Project Manager,Status Reporting,0.109,200,1839
+Project Manager,Change Management,0.097,178,1839
+Project Manager,Resource Allocation,0.086,159,1839
+Project Manager,Scrum,0.073,135,1839
+Project Manager,Jira,0.072,133,1839
+Project Manager,Requirements Gathering,0.063,116,1839
+Project Manager,Cost Estimation,0.053,97,1839
+Project Manager,Stakeholder Management,0.050,92,1839
+Project Manager,Waterfall,0.048,89,1839
+Project Manager,Vendor Management,0.042,77,1839
+Project Manager,Confluence,0.026,47,1839
+Project Manager,Primavera P6,0.026,47,1839
+Project Manager,Smartsheet,0.024,45,1839
+Project Manager,Kanban,0.017,32,1839
+Project Manager,Asana,0.016,30,1839
+Project Manager,PRINCE2,0.005,10,1839

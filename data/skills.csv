@@ -1,0 +1,245 @@
+skill,category,synonyms,ambiguous
+.NET,Programming,dotnet;asp.net;.net core,false
+A/B Testing,Statistics & ML,a/b test;a/b tests;ab testing;split testing,false
+ANSYS,Engineering Tools,,false
+AWS,Cloud & DevOps,amazon web services;ec2,false
+Accessibility,Design Methods,wcag;ada compliance;a11y;section 508,false
+Active Directory,Security,azure ad;entra id,false
+Adobe Creative Suite,Design Tools,adobe creative cloud;photoshop;illustrator;indesign;after effects,false
+Adobe XD,Design Tools,,false
+Agile,Project Management,agile methodology;agile methodologies;agile development,false
+Ansible,Cloud & DevOps,,false
+Apache Spark,Data Tools,Spark;pyspark;spark sql,true
+Asana,Business Software,,false
+Attention to Detail,Soft Skills,detail-oriented;detail oriented;meticulous,false
+AutoCAD,Engineering Tools,autocad electrical;autocad mechanical,false
+Axure,Design Tools,axure rp,false
+Azure,Cloud & DevOps,microsoft azure,false
+BGP,Networking,border gateway protocol,false
+BIM,Engineering Tools,building information modeling;building information modelling,false
+Backlog Management,Business Analysis,product backlog;backlog grooming;backlog refinement;backlog,false
+Bash,Programming,shell scripting;bash scripting;shell script;unix shell,false
+Bluebeam,Engineering Tools,bluebeam revu,false
+Budget Management,Project Management,budgeting;budget tracking;managing budgets;cost control,false
+Building Codes,Engineering Methods,building code;ibc;international building code;asce 7;aci 318;aisc,false
+C,Programming,C language;C programming;ANSI C;embedded C,true
+C#,Programming,c-sharp;csharp,false
+C++,Programming,cpp,false
+CAD,Engineering Tools,computer-aided design;computer aided design,false
+CATIA,Engineering Tools,,false
+CCNA,Certifications,,false
+CCNP,Certifications,,false
+CEH,Certifications,certified ethical hacker,false
+CFD,Engineering Tools,computational fluid dynamics,false
+CI/CD,Cloud & DevOps,continuous integration;continuous delivery;continuous deployment,false
+CISM,Certifications,,false
+CISSP,Certifications,,false
+CRM,Business Software,customer relationship management,false
+CSS,Programming,css3;sass;scss,false
+Change Management,Business Analysis,organizational change,false
+Circuit Design,Engineering Methods,circuit analysis;schematic capture;analog circuits,false
+Cisco,Networking,cisco ios;cisco asa;meraki,false
+Civil 3D,Engineering Tools,autocad civil 3d;civil3d,false
+Cloud Certifications,Certifications,aws certified;aws certification;azure certified;azure certification;az-104;az-900;google cloud certified,false
+Cloud Cost Optimization,Cloud & DevOps,cost optimization;finops;cloud cost,false
+Cloud Networking,Networking,vpc;vnet;virtual private cloud,false
+Cloud Security,Security,,false
+Commissioning,Engineering Methods,,false
+Communication,Soft Skills,communication skills;verbal communication;written communication;communicate effectively,false
+Computer Vision,Statistics & ML,,false
+Confluence,Business Software,,false
+Construction Administration,Engineering Methods,construction management;construction oversight;construction inspection,false
+Control Systems,Engineering Methods,controls engineering;control theory,false
+Cost Estimation,Project Management,cost estimating;cost estimates;quantity takeoff;quantity takeoffs,false
+Cost-Benefit Analysis,Business Analysis,cost benefit analysis;business case;business cases;roi analysis,false
+Creo,Engineering Tools,ptc creo;pro/engineer,false
+DFM,Engineering Methods,design for manufacturing;design for manufacturability;dfma;design for assembly,false
+DHCP,Networking,,false
+DNS,Networking,,false
+Data Analysis,Business Analysis,data analytics;analyze data;analyse data;analyzing data,false
+Data Cleaning,Data Tools,data cleansing;data wrangling;data preparation,false
+Data Modeling,Data Tools,data modelling,false
+Data Structures & Algorithms,Software Engineering,data structures;algorithms,false
+Data Visualisation,Visualisation,data visualization;dashboards;dashboarding,false
+Data Warehousing,Data Tools,data warehouse;data warehouses,false
+Databricks,Data Tools,,false
+Deep Learning,Statistics & ML,neural network;neural networks,false
+Design Systems,Design Methods,design system;component library;pattern library,false
+Design Thinking,Design Methods,,false
+Digital Forensics,Security,computer forensics;forensic analysis,false
+Docker,Cloud & DevOps,,false
+Documentation,Business Analysis,technical documentation;technical writing,false
+EIT/FE,Certifications,eit;engineer in training;engineer-in-training;fe exam;fundamentals of engineering,false
+ERP,Business Software,sap;oracle erp;netsuite;erp systems,false
+ETL,Data Tools,extract transform load;data pipeline;data pipelines;elt,false
+Embedded Systems,Engineering Methods,firmware;microcontroller;microcontrollers,false
+Encryption,Security,cryptography;pki;tls;ssl,false
+Endpoint Security,Security,edr;endpoint detection and response;crowdstrike;carbon black;antivirus,false
+Engineering Drawings,Engineering Methods,technical drawings;blueprints;engineering drawing,false
+Excel,Data Tools,microsoft excel;ms excel,true
+FEA,Engineering Tools,finite element analysis;finite element,false
+FMEA,Engineering Methods,dfmea;pfmea;failure mode and effects analysis;failure modes and effects analysis,false
+Figma,Design Tools,,false
+Firewalls,Security,firewall;palo alto;fortinet;fortigate;check point,false
+GCP,Cloud & DevOps,google cloud platform;google cloud,false
+GD&T,Engineering Methods,geometric dimensioning and tolerancing;geometric dimensioning & tolerancing,false
+GIS,Engineering Tools,arcgis;qgis;geographic information system;geographic information systems,false
+Gap Analysis,Business Analysis,,false
+Generative AI,Statistics & ML,genai;gen ai;large language models;large language model;llm;llms,false
+Geotechnical Engineering,Engineering Methods,geotechnical;soil mechanics;foundation design,false
+Git,Software Engineering,github;gitlab;bitbucket;version control,false
+Go,Programming,golang;Go language;Go programming,true
+Google Analytics,Data Tools,ga4,false
+HTML,Programming,html5,false
+HVAC,Engineering Methods,heating ventilation and air conditioning,false
+Hydraulic Modeling,Engineering Tools,hec-ras;hec-hms;hydraulic modelling;stormcad;swmm,false
+IDS/IPS,Security,intrusion detection;intrusion prevention;IDS;IPS,true
+ISO 27001,Security,iso/iec 27001;iso27001,false
+Identity and Access Management,Security,iam;identity management;access management;privileged access management,false
+InVision,Design Tools,,false
+Incident Response,Security,incident handling;IR,true
+Information Architecture,Design Methods,,false
+Infrastructure as Code,Cloud & DevOps,iac;cloudformation;bicep;pulumi,false
+Instrumentation,Engineering Methods,i&c;instrumentation and controls,false
+Interaction Design,Design Methods,ixd,false
+Java,Programming,java ee;j2ee,false
+JavaScript,Programming,js;ecmascript;es6,false
+Jenkins,Cloud & DevOps,,false
+Jira,Business Software,atlassian jira,false
+Juniper,Networking,junos,false
+Jupyter,Data Tools,jupyter notebook;jupyter notebooks;jupyterlab,false
+KPIs,Business Analysis,kpi;key performance indicators;key performance indicator,false
+Kanban,Project Management,,false
+Kubernetes,Cloud & DevOps,k8s;eks;aks;gke;openshift,false
+LAN/WAN,Networking,lan;wan;local area network;wide area network,false
+Leadership,Soft Skills,team leadership;leadership skills,false
+Lean Six Sigma,Engineering Methods,six sigma;lean manufacturing;kaizen;5s,false
+Lighting Design,Engineering Methods,photometric;lighting layouts,false
+Linux,Cloud & DevOps,unix;rhel;red hat;ubuntu,false
+Load Balancing,Networking,load balancer;load balancers;f5,false
+Looker,Visualisation,looker studio,false
+MATLAB,Engineering Tools,,false
+MEP,Engineering Methods,mechanical electrical and plumbing,false
+MLOps,Cloud & DevOps,model deployment;mlflow;kubeflow;sagemaker,false
+MPLS,Networking,,false
+MS Project,Business Software,microsoft project,false
+Machine Learning,Statistics & ML,ML,true
+Malware Analysis,Security,malware,false
+Manufacturing Processes,Engineering Methods,machining;injection molding;injection moulding;sheet metal;cnc,false
+Materials Selection,Engineering Methods,material selection;materials science;materials engineering,false
+MicroStation,Engineering Tools,bentley microstation,false
+Microservices,Software Engineering,microservice;micro-services,false
+Microsoft Office,Business Software,ms office;office 365;microsoft 365;m365,false
+Miro,Design Tools,,false
+Monitoring Tools,Cloud & DevOps,prometheus;grafana;datadog;new relic;cloudwatch;nagios,false
+Motor Controls,Engineering Methods,motor control;vfd;vfds;variable frequency drive;variable frequency drives,false
+NEC,Engineering Methods,national electrical code;nfpa 70,false
+NIST,Security,nist csf;nist 800-53;nist cybersecurity framework,false
+NLP,Statistics & ML,natural language processing,false
+Negotiation,Soft Skills,negotiating;negotiate,false
+Network Automation,Networking,netmiko;netconf,false
+Network Monitoring,Networking,solarwinds;prtg;netflow;snmp,false
+Network Security,Security,,false
+NoSQL,Databases,mongodb;cassandra;dynamodb;couchbase,false
+Node.js,Programming,nodejs;node js,false
+NumPy,Data Tools,,false
+OSPF,Networking,,false
+Object-Oriented Programming,Software Engineering,oop;object oriented programming;object-oriented design;object oriented design,false
+PCB Design,Engineering Tools,pcb layout;printed circuit board;altium;orcad,false
+PE License,Certifications,professional engineer;p.e. license;licensed pe;pe license;p.e.,false
+PLC,Engineering Tools,plcs;programmable logic controller;programmable logic controllers;ladder logic,false
+PMP,Certifications,project management professional,false
+PRINCE2,Certifications,prince 2,false
+Pandas,Data Tools,,false
+Penetration Testing,Security,pen testing;pentesting;pentest;ethical hacking,false
+Permitting,Engineering Methods,permit applications;permit drawings;permit documents,false
+Personas,Design Methods,persona;user personas,false
+Power BI,Visualisation,powerbi;power-bi,false
+Power Distribution,Engineering Methods,electrical distribution;switchgear;switchboards;transformers,false
+Power Systems Analysis,Engineering Methods,power system studies;power systems studies;load flow;short circuit;arc flash;etap;skm;easypower,false
+PowerShell,Programming,,false
+Predictive Modeling,Statistics & ML,predictive modelling;predictive models;predictive analytics,false
+Presentation Skills,Soft Skills,presenting;presentations;public speaking,false
+Primavera P6,Business Software,primavera,false
+Problem Solving,Soft Skills,problem-solving;problem solver;critical thinking;analytical thinking,false
+Process Improvement,Business Analysis,business process improvement;process optimization;continuous improvement,false
+Process Mapping,Business Analysis,process modeling;process modelling;bpmn;process flows;business process modeling,false
+Prototyping,Design Methods,prototype;prototypes,false
+PyTorch,Data Tools,,false
+Python,Programming,python3;python 3,false
+Qlik,Visualisation,qlikview;qlik sense,false
+QoS,Networking,quality of service,false
+Quality Management,Project Management,quality assurance;quality control;qa/qc,false
+R,Programming,R programming;R language;RStudio;R Shiny,true
+REST APIs,Software Engineering,rest api;restful;restful api;restful apis;restful services;rest services,false
+React,Programming,react.js;reactjs,true
+Regression Analysis,Statistics & ML,linear regression;logistic regression;regression models,false
+Requirements Gathering,Business Analysis,requirements elicitation;requirements analysis;business requirements;gather requirements;requirements definition,false
+Resource Allocation,Project Management,resource management;resource planning,false
+Responsive Design,Design Methods,responsive web design;mobile-first,false
+Revit,Engineering Tools,autodesk revit,false
+Risk Management,Project Management,risk assessment;risk assessments;risk analysis;risk mitigation,false
+Root Cause Analysis,Engineering Methods,root-cause analysis;rca;8d;5 whys,false
+Routing and Switching,Networking,routing;switching;routers;switches;routing protocols,false
+SAS,Data Tools,,true
+SCADA,Engineering Tools,,false
+SD-WAN,Networking,sdwan;software-defined wan,false
+SIEM,Security,security information and event management;splunk;qradar;microsoft sentinel;arcsight,false
+SPSS,Data Tools,ibm spss,false
+SQL,Programming,structured query language;t-sql;tsql;pl/sql,false
+Salesforce,Business Software,sfdc,false
+Scheduling,Project Management,project scheduling;project schedules;schedule management;critical path,false
+Scikit-learn,Data Tools,sklearn;scikit learn,false
+Scope Management,Project Management,project scope;scope definition,false
+Scrum,Project Management,scrum master;sprint planning,false
+Security Compliance,Security,pci dss;pci-dss;hipaa;sox compliance;gdpr;fedramp;cmmc,false
+Security+,Certifications,comptia security+,false
+Serverless,Cloud & DevOps,aws lambda;azure functions;cloud functions,false
+SharePoint,Business Software,,false
+Siemens NX,Engineering Tools,unigraphics,false
+Simulink,Engineering Tools,,false
+Site Design & Grading,Engineering Methods,site design;site development;grading plans;grading;land development,false
+Sketch,Design Tools,,true
+Smartsheet,Business Software,,false
+Snowflake,Data Tools,,false
+SolidWorks,Engineering Tools,solid works,false
+Stakeholder Management,Business Analysis,stakeholder engagement;manage stakeholders;stakeholder communication,false
+Statistics,Statistics & ML,statistical analysis;statistical modeling;statistical modelling;statistical methods,false
+Status Reporting,Project Management,status reports;project reporting,false
+Stormwater Management,Engineering Methods,stormwater;storm water;drainage design;drainage,false
+Structural Analysis Software,Engineering Tools,staad;staad.pro;staad pro;risa;risa-3d;etabs;sap2000,false
+Structural Design,Engineering Methods,structural analysis;structural calculations;steel design;concrete design,false
+Substation Design,Engineering Methods,substation;substations,false
+Surveying,Engineering Methods,land surveying;topographic survey,false
+System Design,Software Engineering,software architecture;distributed systems,false
+TCP/IP,Networking,tcp;udp;osi model,false
+Tableau,Visualisation,,false
+Teamwork,Soft Skills,collaboration;team player;collaborate,false
+TensorFlow,Data Tools,keras,false
+Terraform,Cloud & DevOps,,false
+Thermal Analysis,Engineering Methods,heat transfer;thermodynamics;thermal management,false
+Threat Intelligence,Security,threat intel;cyber threat intelligence;osint,false
+Time Management,Soft Skills,prioritization;multitasking;multi-tasking,false
+Time Series Analysis,Statistics & ML,time series;time-series;forecasting,false
+Tolerance Analysis,Engineering Methods,tolerance stack-up;tolerance stackup;stack-up analysis,false
+Transportation Engineering,Engineering Methods,traffic engineering;roadway design;highway design;traffic studies,false
+Troubleshooting,Networking,troubleshoot;troubleshooting skills,false
+TypeScript,Programming,,false
+UAT,Business Analysis,user acceptance testing,false
+Unit Testing,Software Engineering,unit tests;unit test;test-driven development;tdd;junit;pytest,false
+Usability Testing,Design Methods,usability tests;usability studies;user testing,false
+User Journey Mapping,Design Methods,journey map;journey maps;journey mapping;user journeys;user flows;customer journey,false
+User Research,Design Methods,ux research;user interviews;usability research;contextual inquiry,false
+User Stories,Business Analysis,user story;acceptance criteria,false
+User-Centered Design,Design Methods,user centered design;user-centred design;human-centered design;human centered design;ucd,false
+VLAN,Networking,vlans;802.1q,false
+VPN,Networking,vpns;ipsec;ssl vpn,false
+Vendor Management,Project Management,vendor relationships;supplier management;contract management,false
+Visio,Business Software,microsoft visio;ms visio,false
+Visual Design,Design Methods,ui design;typography;color theory,false
+Vulnerability Management,Security,vulnerability assessment;vulnerability assessments;vulnerability scanning;nessus;qualys,false
+Water Resources,Engineering Methods,hydrology;hydraulics;water distribution;wastewater,false
+Waterfall,Project Management,waterfall methodology,false
+Wireframing,Design Methods,wireframe;wireframes,false
+Wireless Networking,Networking,wi-fi;wifi;wlan;802.11;wireless networks,false
+Wireshark,Networking,packet capture;packet analysis;tcpdump,false

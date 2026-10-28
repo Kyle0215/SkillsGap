@@ -1,0 +1,42 @@
+FICTIONAL SAMPLE SYLLABUS
+Written by Team ArgonUT for the SkillsGap demo. This is not a real UNITEN course.
+
+Course: SAMPLE-PM301 Engineering Project Management
+Credit hours: 3
+Level: Year 3, undergraduate (all engineering programmes)
+
+Synopsis
+This course prepares engineering students to plan, run and close technical projects. It covers the project life cycle, planning and control tools, cost and risk, and the people side of projects. Students apply these methods in a group project based on a construction or energy case study.
+
+Learning outcomes
+By the end of the course, students should be able to:
+1. Define project scope and build a work breakdown structure.
+2. Produce a project schedule using the critical path method and MS Project.
+3. Prepare cost estimates and track a project budget.
+4. Identify, rank and plan responses to project risks using a risk register.
+5. Work effectively in a team and report project progress to stakeholders.
+
+Weekly topics
+Week 1: What is a project? The project life cycle and the waterfall approach.
+Week 2: Project initiation: objectives, constraints and project scope.
+Week 3: Work breakdown structure.
+Week 4: Scheduling: network diagrams and the critical path.
+Week 5: Scheduling lab with MS Project.
+Week 6: Cost estimating and budgeting.
+Week 7: Earned value and cost control.
+Week 8: Risk management: risk register and risk assessment.
+Week 9: Quality control and inspection.
+Week 10: Procurement and contracts.
+Week 11: Teams, roles and leadership.
+Week 12: Communication with stakeholders and status reports.
+Week 13: Project closure and lessons learned.
+Week 14: Group project presentations.
+
+Assessment
+Individual assignment (project schedule): 20%
+Mid-term test: 20%
+Group project (project plan and presentation): 30%
+Final examination: 30%
+
+Main references
+Introductory textbooks on engineering project management, chosen by the lecturer.

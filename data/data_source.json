@@ -1,0 +1,24 @@
+{
+  "name": "LinkedIn Job Postings (2023 - 2024)",
+  "url": "https://www.kaggle.com/datasets/arshkon/linkedin-job-postings",
+  "licence": "CC BY-SA 4.0",
+  "collection_method": "public licensed dataset",
+  "date_range": "2024-04 to 2024-04",
+  "region": "Global",
+  "postings_used": 8042,
+  "roles": [
+    "Data Analyst",
+    "Cybersecurity Analyst",
+    "Software Engineer",
+    "Data Scientist",
+    "Network Engineer",
+    "Cloud Engineer",
+    "Electrical Engineer",
+    "Mechanical Engineer",
+    "Civil Engineer",
+    "UI/UX Designer",
+    "Business Analyst",
+    "Project Manager"
+  ],
+  "notes": "No Malaysian postings exist in this dataset (0 found); region set to Global as agreed with the team, but almost all postings are in the United States, so demand reflects the US job market. Only English-language LinkedIn ads posted online, mostly listed in April 2024 (a 4-week snapshot). Exact duplicates (same title + description) removed; near-duplicates and reposts may remain. Roles assigned by title keywords only (one role per posting); see DATA_README.md for the keywords. Skills counted by whole-word keyword matching in the description; a mention does not always mean a requirement (e.g. 'nice to have', company boilerplate). Low-sample roles (<30 postings): none. Roles left out (0 postings): none. Derived from a CC BY-SA 4.0 dataset: give attribution and share these derived files under CC BY-SA 4.0."
+}

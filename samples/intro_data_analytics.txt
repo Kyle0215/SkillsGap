@@ -1,0 +1,42 @@
+FICTIONAL SAMPLE SYLLABUS
+Written by Team ArgonUT for the SkillsGap demo. This is not a real UNITEN course.
+
+Course: SAMPLE-DA101 Introduction to Data Analytics
+Credit hours: 3
+Level: Year 2, undergraduate
+
+Synopsis
+This course introduces students to the data analytics process, from asking a business question to presenting an answer. Students work with spreadsheets and Python to explore real-world datasets, clean messy records and summarise results with descriptive statistics and charts.
+
+Learning outcomes
+By the end of the course, students should be able to:
+1. Import, clean and reshape datasets using Excel and Python.
+2. Write SQL queries to select, filter, join and aggregate data from a relational database.
+3. Apply descriptive statistics and simple linear regression to describe relationships in data.
+4. Build clear charts and an interactive dashboard to communicate findings.
+5. Explain an analysis to a non-technical audience in writing and orally.
+
+Weekly topics
+Week 1: What is data analytics? The analytics workflow.
+Week 2: Spreadsheet basics: formulas, sorting, filtering and pivot tables in Excel.
+Week 3: Introduction to Python and Jupyter notebooks.
+Week 4: Working with tables in pandas.
+Week 5: Data cleaning: missing values, duplicates and inconsistent formats.
+Week 6: Relational databases and SQL: SELECT, WHERE and ORDER BY.
+Week 7: SQL joins and GROUP BY.
+Week 8: Descriptive statistics: mean, median, spread and outliers.
+Week 9: Correlation and linear regression.
+Week 10: Data visualization principles: choosing the right chart.
+Week 11: Building a dashboard in Tableau.
+Week 12: Telling a story with data.
+Week 13: Group project consultation.
+Week 14: Project presentations.
+
+Assessment
+Lab exercises (Python and SQL): 20%
+Mid-term test: 20%
+Group project (report and dashboard): 30%
+Final examination: 30%
+
+Main references
+Introductory textbooks on data analysis with Python and SQL, chosen by the lecturer.

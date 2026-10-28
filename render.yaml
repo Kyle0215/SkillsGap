@@ -1,0 +1,12 @@
+# Render Blueprint for SkillsGap (Render dashboard -> New -> Blueprint -> pick this repo).
+# Python version comes from the .python-version file (3.12.7).
+services:
+  - type: web
+    name: skillsgap
+    runtime: python
+    plan: free                 # free tier: sleeps after 15 min without visitors, ~1 min to wake
+    region: singapore          # closest Render region to Malaysia
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit  # redeploy on every push to the main branch

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkillsGap · Is your syllabus job-ready?</title>
+  <meta name="description" content="Compare a course syllabus with real job ads in seconds.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <a class="logo" href="#/"><span class="logo-mark" aria-hidden="true"></span>SkillsGap</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-route="start">Analyze</a>
+      <a href="#/validate" data-route="validate">Validate</a>
+      <a href="#/about" data-route="about">About</a>
+    </nav>
+    <span class="tag">Team ArgonUT · Prototype</span>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <p id="data-error" class="banner banner-error" role="alert" hidden></p>
+
+    <!-- ============================ START ============================ -->
+    <section id="view-start" class="view" aria-labelledby="start-title">
+      <div class="hero reveal">
+        <h1 id="start-title" tabindex="-1">Is your syllabus <span class="hl">job-ready?</span></h1>
+        <p>Compare a course with real job ads in seconds.</p>
+      </div>
+
+      <form id="analyze-form" class="steps" novalidate>
+        <!-- Step 1: the syllabus -->
+        <fieldset class="card step reveal reveal-1">
+          <legend><span class="step-num" aria-hidden="true">1</span>Your syllabus</legend>
+          <div class="seg">
+            <label><input type="radio" name="source" value="upload" checked><span>Upload</span></label>
+            <label><input type="radio" name="source" value="paste"><span>Paste</span></label>
+            <label><input type="radio" name="source" value="sample"><span>Sample</span></label>
+          </div>
+
+          <div data-panel="upload">
+            <label class="drop" id="drop">
+              <input type="file" id="file" accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+              <span class="drop-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4"/><path d="m6 10 6-6 6 6"/><path d="M4 20h16"/></svg>
+              </span>
+              <b>Drop a PDF or DOCX</b>
+              <span>or click to browse · max <span id="max-mb">5</span> MB</span>
+            </label>
+            <div id="file-chosen" class="file-chosen" hidden>
+              <span class="file-badge" aria-hidden="true" id="file-type">PDF</span>
+              <span class="file-text"><span class="file-name" id="file-name"></span><span class="file-size" id="file-size"></span></span>
+              <button type="button" class="btn-link" id="file-clear">Remove</button>
+            </div>
+          </div>
+
+          <div data-panel="paste" hidden>
+            <label for="paste" class="visually-hidden">Syllabus text</label>
+            <textarea id="paste" rows="7" placeholder="Paste the course outline, learning outcomes and weekly topics…"></textarea>
+            <p class="hint" id="word-count">0 words · at least 30</p>
+          </div>
+
+          <div data-panel="sample" hidden>
+            <div id="sample-list" class="sample-list" role="radiogroup" aria-label="Sample syllabus"></div>
+            <p class="hint">Fictional samples, not real UNITEN courses.</p>
+          </div>
+        </fieldset>
+
+        <!-- Step 2: the role -->
+        <fieldset class="card step reveal reveal-2">
+          <legend><span class="step-num" aria-hidden="true">2</span>Target job</legend>
+          <div id="role-chips" class="chips"><span class="hint">Loading roles…</span></div>
+        </fieldset>
+
+        <!-- Step 3: the matching method -->
+        <fieldset class="card step reveal reveal-3">
+          <legend><span class="step-num" aria-hidden="true">3</span>Matching</legend>
+          <div class="opts">
+            <label class="opt"><input type="radio" name="method" value="level2" checked><span><b>Smart</b>names + synonyms</span></label>
+            <label class="opt"><input type="radio" name="method" value="level1"><span><b>Exact</b>names only</span></label>
+          </div>
+        </fieldset>
+
+        <div class="cta reveal reveal-4">
+          <p id="form-error" class="form-error" role="alert" hidden></p>
+          <button type="submit" id="analyze-btn" class="btn-primary">
+            <span id="analyze-label">Analyze syllabus</span><span class="arrow" aria-hidden="true">→</span>
+          </button>
+          <p id="busy-msg" class="hint busy-msg" aria-live="polite"></p>
+        </div>
+      </form>
+
+      <ul class="trust reveal reveal-4" id="trust" aria-label="About this tool"></ul>
+    </section>
+
+    <!-- =========================== RESULTS =========================== -->
+    <section id="view-results" class="view" aria-labelledby="results-title" hidden>
+      <div class="rhead">
+        <div>
+          <h1 id="results-title" tabindex="-1">Results</h1>
+          <p class="sub" id="results-sub"></p>
+        </div>
+        <div class="rhead-actions">
+          <div class="seg seg-inline" role="radiogroup" aria-label="Matching">
+            <label><input type="radio" name="view-method" value="level1"><span>Exact</span></label>
+            <label><input type="radio" name="view-method" value="level2"><span>Smart</span></label>
+          </div>
+          <button type="button" class="btn-ghost" id="csv-btn"><span aria-hidden="true">⬇</span> CSV</button>
+          <button type="button" class="btn-ghost" id="new-btn"><span aria-hidden="true">↺</span> New</button>
+        </div>
+      </div>
+      <p class="note"><b>Decision support only.</b> “Not detected” means not found in the text, not “not taught”.</p>
+
+      <p id="grid-help" class="visually-hidden">Drag to rearrange. On touch screens, press and hold first. With a keyboard, focus a tile, hold Alt and press the arrow keys.</p>
+      <div id="bento" class="bento" aria-label="Results dashboard"></div>
+      <p class="grid-hint">
+        <span>Tip: drag tiles to rearrange · click any skill to see its evidence</span>
+        <button type="button" class="btn-link" id="reset-layout">Reset layout</button>
+      </p>
+
+      <details class="card all-skills" id="all-skills">
+        <summary>All skills <span id="all-count"></span></summary>
+        <div class="table-wrap">
+          <table id="skills-table">
+            <caption class="visually-hidden">Every skill checked, ranked by gap score</caption>
+            <thead>
+              <tr><th scope="col">Skill</th><th scope="col">Category</th><th scope="col" class="num">Job ads</th><th scope="col">Status</th><th scope="col" class="num">Mentions</th></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </details>
+
+      <div class="card rating">
+        <span class="rating-q" id="rating-q">Was this useful?</span>
+        <div id="rating" class="rating-btns" role="group" aria-labelledby="rating-q">
+          <button type="button" data-value="1" aria-label="1 out of 5, not useful">1</button>
+          <button type="button" data-value="2" aria-label="2 out of 5">2</button>
+          <button type="button" data-value="3" aria-label="3 out of 5">3</button>
+          <button type="button" data-value="4" aria-label="4 out of 5">4</button>
+          <button type="button" data-value="5" aria-label="5 out of 5, very useful">5</button>
+        </div>
+        <span class="hint rating-thanks" id="rating-thanks" hidden>Thanks! Kept in this tab only.</span>
+      </div>
+      <p id="sr-live" class="visually-hidden" aria-live="polite"></p>
+    </section>
+
+    <!-- ========================== VALIDATE =========================== -->
+    <section id="view-validate" class="view" aria-labelledby="validate-title" hidden>
+      <div class="page-head">
+        <h1 id="validate-title" tabindex="-1">Validate</h1>
+        <p class="sub">Check the app against a lecturer’s judgement.</p>
+      </div>
+      <div id="validate-body" class="validate"></div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section id="view-about" class="view" aria-labelledby="about-title" hidden>
+      <div class="page-head">
+        <h1 id="about-title" tabindex="-1">About</h1>
+        <p class="sub">How SkillsGap works, in 30 seconds.</p>
+      </div>
+      <div id="about-body" class="info-grid"><p class="hint">Loading…</p></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p id="attribution">Job-market data derived from 'LinkedIn Job Postings (2023 - 2024)' by Arsh Koneru, Kaggle, CC BY-SA 4.0. Filtered and counted by Team ArgonUT.</p>
+  </footer>
+</body>
+</html>
